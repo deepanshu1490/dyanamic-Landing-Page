@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superb UI Kit Designs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="flex flex-col w-full min-h-screen bg-white">
+        <nav class="flex sticky top-0 justify-between items-center px-10 py-4 mx-auto my-5 text-white bg-gray-900 rounded-2xl animate-slideDown max-w-[1400px] shadow-[0_10px_30px_rgba(0,0,0,0.1)] z-[100]" role="navigation" aria-label="Main navigation">
+            <div class="flex gap-12 items-center">
+                <img src="https://images.pexels.com/photos/7661185/pexels-photo-7661185.jpeg" alt="Company Logo" class="object-cover overflow-hidden w-auto h-8 aspect-square" />
+                <ul class="flex gap-6 items-center p-0 m-0 max-md:hidden" role="menubar">
+                    <li role="none"><a href="#" class="nav-link relative px-4 py-2 text-sm font-semibold text-white no-underline rounded-3xl transition-all ease-in-out duration-[0.3s]" role="menuitem">Home</a></li>
+                    <li role="none"><a href="#" class="nav-link px-4 py-2 text-sm font-semibold text-white no-underline rounded-3xl transition-all duration-[0.3s]" role="menuitem">About</a></li>
+                    <li role="none"><a href="#" class="nav-link px-4 py-2 text-sm font-semibold text-white no-underline rounded-3xl transition-all duration-[0.3s]" role="menuitem">Features</a></li>
+                    <li role="none"><a href="#" class="nav-link px-4 py-2 text-sm font-semibold text-white no-underline rounded-3xl transition-all duration-[0.3s]" role="menuitem">Pricing</a></li>
+                    <li role="none"><a href="#" class="nav-link px-4 py-2 text-sm font-semibold text-white no-underline rounded-3xl transition-all duration-[0.3s]" role="menuitem">Contact</a></li>
+                    <li role="none"><a href="#" class="nav-link px-4 py-2 text-sm font-semibold text-white no-underline rounded-3xl transition-all duration-[0.3s]" role="menuitem">Blog</a></li>
+                </ul>
+            </div>
+            <div class="flex gap-4 items-center">
+                <a href="#" class="preview-button px-6 py-2 text-sm font-semibold text-gray-900 no-underline bg-white rounded-[100px] hover:bg-gray-50 transition-all duration-200">Preview in Figma</a>
+                <button class="buy-button px-6 py-3 text-sm font-semibold text-white bg-gray-900 transition-all cursor-pointer border-none duration-200 rounded-[100px] hover:bg-gray-800">Buy Now</button>
+            </div>
+        </nav>
+
+        <main>
+            <section class="hero-section flex overflow-hidden relative flex-col items-center px-5 py-32 text-center text-white bg-blue-600" aria-labelledby="hero-heading">
+                <h1 id="hero-heading" class="mb-6 text-7xl font-bold leading-none opacity-0 translate-y-5 animate-slideUp max-w-[800px]">
+                    <span>Superb! UI Kit Designs</span>
+                    <br />
+                    <span>Designed For Your Needs</span>
+                </h1>
+                <p class="mb-10 text-xl leading-relaxed opacity-0 translate-y-5 animate-[slideUp_0.8s_ease_forwards_0.2s] max-w-[600px]">
+                    No time to waste for a design work? we got you. Superb! designed to easily
+                    deliver our finalized Kit for your needs.
+                </p>
+                <div class="flex gap-4">
+                    <button class="px-8 py-4 text-base font-semibold text-blue-600 bg-white transition-all cursor-pointer border-none duration-200 rounded-[100px] hover:bg-gray-50">
+                        Preview in Figma
+                    </button>
+                    <button class="px-8 py-4 text-base font-semibold text-white bg-gray-900 transition-all cursor-pointer border-none duration-200 rounded-[100px] hover:bg-gray-800">
+                        Buy Now
+                    </button>
+                </div>
+            </section>
+
+            <section class="services-section px-5 py-24 bg-white" aria-labelledby="services-heading">
+                <div class="mx-auto my-0 max-w-[1200px]">
+                    <h2 id="services-heading" class="mb-20 text-5xl font-bold text-center text-gray-900">Our Services</h2>
+                    <div class="grid gap-10 grid-cols-[repeat(3,1fr)] max-md:grid-cols-[repeat(2,1fr)] max-sm:grid-cols-[1fr]">
+                        <article class="service-card p-10 bg-gray-50 rounded-3xl transition-transform duration-300 hover:translate-y-[-10px]">
+                            <h3 class="mb-5 text-2xl font-semibold text-gray-900">UI Design</h3>
+                            <p class="text-base leading-relaxed text-zinc-500">
+                                Create beautiful and intuitive user interfaces that engage and
+                                delight your users.
+                            </p>
+                        </article>
+                        <article class="service-card p-10 bg-gray-50 rounded-3xl transition-transform duration-300 hover:translate-y-[-10px]">
+                            <h3 class="mb-5 text-2xl font-semibold text-gray-900">UX Design</h3>
+                            <p class="text-base leading-relaxed text-zinc-500">
+                                Design seamless user experiences that make your products easy and
+                                enjoyable to use.
+                            </p>
+                        </article>
+                        <article class="service-card p-10 bg-gray-50 rounded-3xl transition-transform duration-300 hover:translate-y-[-10px]">
+                            <h3 class="mb-5 text-2xl font-semibold text-gray-900">Brand Design</h3>
+                            <p class="text-base leading-relaxed text-zinc-500">
+                                Develop strong brand identities that help your business stand out in
+                                the market.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-section px-5 py-24 text-white bg-blue-600" aria-labelledby="about-heading">
+                <div class="flex gap-16 items-center mx-auto my-0 max-w-[1200px] max-md:flex-col max-md:text-center">
+                    <div class="flex-1">
+                        <h2 id="about-heading" class="mb-8 text-5xl font-bold">About Me</h2>
+                        <p class="mb-8 text-lg leading-relaxed">
+                            With over 8 years of experience in digital design, I specialize in
+                            creating user-centered interfaces that drive results. My approach
+                            combines creativity with strategic thinking to deliver solutions that
+                            exceed expectations.
+                        </p>
+                        <button class="px-8 py-4 text-base font-semibold text-blue-600 bg-white transition-all cursor-pointer border-none duration-200 rounded-[100px] hover:bg-gray-50">
+                            Learn More
+                        </button>
+                    </div>
+                    <div class="flex-1">
+                        <img src="https://images.pexels.com/photos/7014337/pexels-photo-7014337.jpeg"
+                             alt="Designer at work"
+                             class="object-cover overflow-hidden w-full h-auto rounded-3xl aspect-square" />
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact-section px-5 py-24 bg-white" aria-labelledby="contact-heading">
+                <div class="mx-auto my-0 text-center max-w-[800px]">
+                    <h2 id="contact-heading" class="mb-8 text-5xl font-bold text-gray-900">Get in Touch</h2>
+                    <p class="mb-12 text-lg leading-relaxed text-zinc-500">
+                        Ready to start your next project? Let's discuss how we can work together
+                        to bring your vision to life.
+                    </p>
+                    <form class="flex flex-col gap-5" aria-label="Contact form">
+                        <input class="p-4 text-base rounded-xl border border-gray-200 border-solid focus:outline-none focus:border-blue-600"
+                               type="text"
+                               placeholder="Your Name"
+                               aria-label="Your name" />
+                        <input class="p-4 text-base rounded-xl border border-gray-200 border-solid focus:outline-none focus:border-blue-600"
+                               type="email"
+                               placeholder="Your Email"
+                               aria-label="Your email" />
+                        <textarea class="p-4 text-base rounded-xl border border-gray-200 border-solid resize-y min-h-[150px] focus:outline-none focus:border-blue-600"
+                                  placeholder="Your Message"
+                                  aria-label="Your message"></textarea>
+                        <button class="px-8 py-4 text-base font-semibold text-white bg-blue-600 transition-all cursor-pointer border-none duration-200 rounded-[100px] hover:bg-blue-700">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
